@@ -22,3 +22,10 @@ mean(extrData$Solar.R[is.na(extrData$Solar.R) != T])
 mean(data$Temp[data$Month==6])
 #20
 max(data$Ozone[data$Month==5 & is.na(data$Ozone) ==F])
+
+#fun stuff
+init <- read.csv('hw1_data.csv', nrows=70)
+classes <- sapply(init,class)
+allData <- read.csv('hw1_data.csv',colClasses=classes)
+
+#check dput, dump
