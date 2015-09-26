@@ -12,7 +12,7 @@ You should create one R script called "run_analysis.R" that does the following:
 
 ## Steps on how to run the required analysis for the course project
 
-1. Download the data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip the folder. You should now have a folder called "UCI HAR Dataset" in your directory of choice.
+1. Download the data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip the folder. You should now have a folder called "UCI HAR Dataset" in your directory of choice. Alternatively, you could also just clone the entire repository to your local machine.
 2. Save the script "run_analysis.R" from this repository in the same directory in which you unzipped the data folder.
 3. Open a terminal or RStudio in the same directory where you put "run_analysis.R" and execute the file. The output will be a .txt file called "tidyDataSet.txt"
 
