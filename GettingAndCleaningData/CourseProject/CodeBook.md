@@ -1,4 +1,4 @@
-### Description of relevant variables and clean up of data
+### Description of relevant variables and explanation of the data processing
 
 ## The original data set
 
@@ -46,7 +46,7 @@ The following files are available for the train and test data. Their description
 
 ## Processing the data
 
-The task is described in README.md. In the following, the steps that are needed to solve these tasks are described as well as the resulting data set. Please note that there are also several explanatory comments in teh script "run_analysis.R".
+The task is described in README.md. In the following, the steps that are needed to solve these tasks are described as well as the resulting dataset. Please note that there are also several explainatory comments in the script "run_analysis.R".
 
 1) The file "features.txt" is read in. Theses features will serve as columns headers for the actual datasets.
 
@@ -66,7 +66,7 @@ The task is described in README.md. In the following, the steps that are needed 
 
 9) The dataframe is written to a .txt file called "tidyDataSet.txt".
 
-## Result
+## Resulting dataset
 
 The dataset created in "run_analysis.R", described above in steps 1-9, has 180 observations and 68 variables. The variables are:
 
